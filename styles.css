@@ -118,9 +118,10 @@ footer {
 
     nav ul li {
         display: flex;
+        gap: 10px;
     }
     ul{
         display: flex;
-        font-size: 12px;
+        font-size: 11px;
     }
 }
