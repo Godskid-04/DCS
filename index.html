@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Business Name] - Cakes & Frames for Every Occasion</title>
+    <style>
+        /* Resetting margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* Navigation */
+        nav ul {
+            background-image: url(./images/bg-header-desktop.png);
+            background-repeat: no-repeat;
+            list-style: none;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem 0;
+            background: #fff;
+            margin-bottom: 1rem;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .about, .services, .testimonials, .contact {
+            padding: 2rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        /* WhatsApp Card */
+        .whatsapp-card {
+            text-align: center;
+            padding: 2rem;
+            background-color: #25D366;
+            color: white;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-card a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .whatsapp-card a:hover {
+            background-color: #1DA054;
+        }
+
+        .whatsapp-icon {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+            }
+
+            nav ul li {
+                display: flex;
+            }
+            ul{
+                display: flex;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>DERA'S CAKE AND SURPRISES - Cakes & Frames for Every Occasion</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <section id="about" class="about container">
+        <h2>About Us</h2>
+        <p>DERA'S CAKE AND SURPRISES was founded out of a passion for both the culinary and creative arts. We create handcrafted cakes and frames that bring joy and elegance to your most special moments.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services container">
+        <h2>Our Services</h2>
+        <h3>Custom Cakes</h3>
+        <p>We offer a range of custom cakes for all occasions, including weddings, birthdays, and corporate events.</p>
+        <h3>Custom Frames</h3>
+        <p>Our frames are crafted to enhance your memories, from classic wood to modern metal options.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery container">
+        <h2>Gallery</h2>
+        <p>Explore our creations, from elegant cakes to beautiful frames.</p>
+        <img src="./images/cake.jpeg" alt="Sample Cake" width="20px" height="200px">
+        <img src="./images/frame.jpeg" alt="Sample Frame" width="20px" height="200px">
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials container">
+        <h2>Testimonials</h2>
+        <p>“The cake was a showstopper at our wedding! Not only did it look amazing, but it tasted incredible.” By Mrs Amarachi</p>
+        <p>“The frame enhanced my artwork beautifully. Attention to detail is unmatched.” By Sir Benedith</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <h2>Contact Us</h2>
+        <div class="whatsapp-card">
+            <a href="https://wa.me/+2349132637219" target="_blank">
+                <span class="whatsapp-icon">📞</span> Message Us on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 DERA'S CAKE AND SURPRISES - Cakes & Frames for Every Occasion</p>
+    </footer>
+</body>
+</html>
